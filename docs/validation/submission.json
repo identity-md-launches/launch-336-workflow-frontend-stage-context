@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-09-27T06:34:13.810414+00:00",
+  "permittedPathsOnly": true,
+  "existingTrackedFilesChanged": [],
+  "dependencyCachesIncluded": false,
+  "submodules": false,
+  "exportAssetCount": 6,
+  "exportAssetBytes": 502677,
+  "exportManifestBytes": 2943,
+  "browserChecksPassed": 25,
+  "unitTestsPassed": 5,
+  "offlineLockfileRebuild": "PASS; byte-identical final manifest and asset hashes",
+  "deliveryFiles": 46,
+  "deliveryBytesBeforeThisRecord": 2976491,
+  "actualGitCommit": "BLOCKED: original .git is read-only; git add could not create .git/index.lock",
+  "bundleLimitBytes": 8388608,
+  "bundleMethod": "Disposable full-history clone in test/scratch; allowed deliverables overlaid; no original repository metadata modified. A 65536-byte reserve covers this record and final documentation.",
+  "projectedFullHistoryBundleBytes": 2762962,
+  "projectedBundleWithEvidenceReserveBytes": 2828498,
+  "bundleWithinLimit": true
+}

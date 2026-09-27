@@ -1,0 +1,263 @@
+{
+  "checkedAt": "2026-09-27T06:31:23.127Z",
+  "scope": "Production export under /preview/, intercepted RPC and injected mock wallet; no broadcasts.",
+  "checks": [
+    {
+      "name": "Disconnected: live orders readable, all transaction controls disabled",
+      "result": "PASS"
+    },
+    {
+      "name": "Keyboard: skip link reaches main; wallet connection rejection is recoverable",
+      "result": "PASS"
+    },
+    {
+      "name": "Wrong chain: disables actions, 4902 adds exact handoff network then switches",
+      "result": "PASS"
+    },
+    {
+      "name": "Approval validates amount, focuses error and writes exact board allowance",
+      "result": "PASS"
+    },
+    {
+      "name": "Post validates price and escrows correct token/amount/price/duration",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact quote invalidates when edited; buy sends exact rounded ETH and refreshes",
+      "result": "PASS"
+    },
+    {
+      "name": "Simulation revert is surfaced and prevents wallet transaction",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejected transaction keeps onchain state unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "Expired maker order can be cancelled with explicit confirmation",
+      "result": "PASS"
+    },
+    {
+      "name": "Withdraw credits, then disable zero-credit withdrawal",
+      "result": "PASS"
+    },
+    {
+      "name": "Token filter rejects invalid address and supports six-decimal dust with one-wei quote",
+      "result": "PASS"
+    },
+    {
+      "name": "Account change clears selection and replaces account state",
+      "result": "PASS"
+    },
+    {
+      "name": "RPC read failure gates transactions and retry recovers",
+      "result": "PASS"
+    },
+    {
+      "name": "Axe WCAG A/AA scan: connected desktop",
+      "result": "PASS"
+    },
+    {
+      "name": "Responsive 1440px: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Responsive 900px: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Responsive 768px: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Responsive 390px: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Responsive 320px: no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Text enlargement to 200% at 768px reflows without horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Pagination searches older orders without presenting the partial range as complete",
+      "result": "PASS"
+    },
+    {
+      "name": "Empty board explains how to post the first order",
+      "result": "PASS"
+    },
+    {
+      "name": "Missing wallet shows install/open guidance",
+      "result": "PASS"
+    },
+    {
+      "name": "Empty deployed code blocks transactions",
+      "result": "PASS"
+    },
+    {
+      "name": "ABI tamper fails closed before any controls load",
+      "result": "PASS"
+    }
+  ],
+  "screenshots": [
+    "docs/validation/desktop-disconnected.png",
+    "docs/validation/wrong-network.png",
+    "docs/validation/keyboard-approval-focus.png",
+    "docs/validation/desktop-posted.png",
+    "docs/validation/viewport-1440.png",
+    "docs/validation/viewport-900.png",
+    "docs/validation/viewport-768.png",
+    "docs/validation/viewport-390.png",
+    "docs/validation/viewport-320.png",
+    "docs/validation/text-200-percent.png",
+    "docs/validation/empty-board.png"
+  ],
+  "consoleErrors": [],
+  "resourceFailures": [],
+  "contrast": [
+    {
+      "selector": "h1",
+      "foreground": "rgb(37, 43, 36)",
+      "background": "rgb(244, 243, 236)",
+      "ratio": 13.02,
+      "disabled": false,
+      "border": "rgb(37, 43, 36)"
+    },
+    {
+      "selector": ".intro-copy p",
+      "foreground": "rgb(37, 43, 36)",
+      "background": "rgb(244, 243, 236)",
+      "ratio": 13.02,
+      "disabled": false,
+      "border": "rgb(37, 43, 36)"
+    },
+    {
+      "selector": ".hint",
+      "foreground": "rgb(97, 102, 91)",
+      "background": "rgb(244, 243, 236)",
+      "ratio": 5.3,
+      "disabled": false,
+      "border": "rgb(97, 102, 91)"
+    },
+    {
+      "selector": ".eyebrow",
+      "foreground": "rgb(97, 102, 91)",
+      "background": "rgb(244, 243, 236)",
+      "ratio": 5.3,
+      "disabled": false,
+      "border": "rgb(97, 102, 91)"
+    },
+    {
+      "selector": ".order-state.open",
+      "foreground": "rgb(53, 96, 71)",
+      "background": "rgb(232, 238, 230)",
+      "ratio": 6.11,
+      "disabled": false,
+      "border": "rgb(53, 96, 71)"
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(97, 102, 91)",
+      "background": "rgb(233, 232, 223)",
+      "ratio": 4.8,
+      "disabled": true,
+      "border": "rgb(181, 182, 170)"
+    },
+    {
+      "selector": "#post-quantity",
+      "foreground": "rgb(37, 43, 36)",
+      "background": "rgb(255, 254, 249)",
+      "ratio": 14.35,
+      "disabled": false,
+      "border": "rgb(133, 136, 124)",
+      "borderContrast": 3.58
+    }
+  ],
+  "transactions": [
+    {
+      "functionName": "approve",
+      "args": [
+        "0x58378B9fcEC6dE2079F8FD57adE6c78128f49738",
+        "2000000000000000000"
+      ],
+      "transaction": {
+        "data": "0x095ea7b300000000000000000000000058378b9fcec6de2079f8fd57ade6c78128f497380000000000000000000000000000000000000000000000001bc16d674ec80000",
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0xece5c9e8705a8175ac9c7cfd4ec596b791e48aa5"
+      }
+    },
+    {
+      "functionName": "post",
+      "args": [
+        "0xEcE5C9E8705A8175Ac9C7cfd4eC596B791e48aA5",
+        "2000000000000000000",
+        "5000000000000000",
+        "1791095483"
+      ],
+      "transaction": {
+        "data": "0x7cccb78b000000000000000000000000ece5c9e8705a8175ac9c7cfd4ec596b791e48aa50000000000000000000000000000000000000000000000001bc16d674ec800000000000000000000000000000000000000000000000000000011c37937e08000000000000000000000000000000000000000000000000000000000006ac1f2bb",
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738"
+      }
+    },
+    {
+      "functionName": "fill",
+      "args": [
+        "1",
+        "2000000000000000000"
+      ],
+      "transaction": {
+        "data": "0x3c29fc4300000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000001bc16d674ec80000",
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738",
+        "value": "0x71afd498d0000"
+      }
+    },
+    {
+      "functionName": "cancel",
+      "args": [
+        "2"
+      ],
+      "transaction": {
+        "data": "0x40e58ee50000000000000000000000000000000000000000000000000000000000000002",
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738"
+      }
+    },
+    {
+      "functionName": "withdraw",
+      "args": [],
+      "transaction": {
+        "data": "0x3ccfd60b",
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738"
+      }
+    },
+    {
+      "functionName": "fill",
+      "args": [
+        "4",
+        "1"
+      ],
+      "transaction": {
+        "data": "0x3c29fc4300000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000001",
+        "from": "0x1111111111111111111111111111111111111111",
+        "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738",
+        "value": "0x1"
+      }
+    }
+  ],
+  "activeAccent": {
+    "foreground": "rgb(255, 254, 249)",
+    "background": "rgb(173, 62, 36)"
+  },
+  "axe": {
+    "violations": [],
+    "passes": 27
+  },
+  "result": "PASS"
+}

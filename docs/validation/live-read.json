@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-09-27T06:20:59.455Z",
+  "chainId": 11155111,
+  "sourceCommit": "231f4699e7f970e8c4a0b664e562659e1fc6bc57",
+  "attempts": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": "0xaa36a7",
+      "ok": true
+    }
+  ],
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xece5c9e8705a8175ac9c7cfd4ec596b791e48aa5",
+      "byteLength": 1753,
+      "codeSha256": "9bf214a64bbd6d33dcfa84458a40869504e7af5d246959d7f661984bbe3630f2"
+    },
+    {
+      "name": "OTCBoard",
+      "address": "0x58378b9fcec6de2079f8fd57ade6c78128f49738",
+      "byteLength": 4272,
+      "codeSha256": "acd3b988e37f7a3b9850a4fc4a1b4c6fb096ac0c5a577ca2a4489b73a46a3f8a"
+    }
+  ],
+  "calls": [
+    {
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xece5c9e8705a8175ac9c7cfd4ec596b791e48aa5",
+          "data": "0x06fdde03"
+        },
+        "0xb3ec8c"
+      ],
+      "functionName": "name",
+      "result": "Desk"
+    },
+    {
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xece5c9e8705a8175ac9c7cfd4ec596b791e48aa5",
+          "data": "0x95d89b41"
+        },
+        "0xb3ec8c"
+      ],
+      "functionName": "symbol",
+      "result": "DESK"
+    },
+    {
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xece5c9e8705a8175ac9c7cfd4ec596b791e48aa5",
+          "data": "0x313ce567"
+        },
+        "0xb3ec8c"
+      ],
+      "functionName": "decimals",
+      "result": 18
+    },
+    {
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xece5c9e8705a8175ac9c7cfd4ec596b791e48aa5",
+          "data": "0x18160ddd"
+        },
+        "0xb3ec8c"
+      ],
+      "functionName": "totalSupply",
+      "result": "1000000000000000000000000000"
+    },
+    {
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738",
+          "data": "0xc6646773"
+        },
+        "0xb3ec8c"
+      ],
+      "functionName": "featuredToken",
+      "result": "0xEcE5C9E8705A8175Ac9C7cfd4eC596B791e48aA5"
+    },
+    {
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x58378b9fcec6de2079f8fd57ade6c78128f49738",
+          "data": "0x2453ffa8"
+        },
+        "0xb3ec8c"
+      ],
+      "functionName": "orderCount",
+      "result": "0"
+    }
+  ],
+  "sentTransactions": 0,
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "block": "0xb3ec8c",
+  "result": "PASS"
+}
